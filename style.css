@@ -41,7 +41,7 @@ body{
     width: 49%;
 }
 .page-button{
-    background-color:aqua;
+    background-color:#cc334f;
     padding: 10px;
     text-decoration: none;
     color: black;
@@ -68,6 +68,7 @@ h3{
 p{
     font-size: 20px;
     text-align: justify;
+    line-height: 25px;
 }
 .website-info{
     padding: 20px;
