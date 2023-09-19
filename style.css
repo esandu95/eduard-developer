@@ -1,128 +1,44 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'League Spartan', sans-serif;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Contact me - Eduard</title>
+</head>
+<body>
+    <div class="navbar">
+        <a class="menubutton" href="#hero">Home</a>
+        <a class="menubutton" href="#Portofolio">Portofolio</a>
+        <a class="menubutton" href="#about">About</a>
+        <a class="menubutton" href="">Contact</a>
+    </div>
+    <div class="contact">
+        <h2 style="text-align: center;">
+        Let's have a chat.<br />
+         We'll create the website that your customers love.
+        </h2>
+        <span>
+            <h3>
+                Free quote. No Obligations!
+            </h3>
+        </span>
+        <ul>
+            <li><a href="">TELEGRAM (FASTEST)</a></li>
+            <li><a href="">WHATSAPP</a></li>
+            <li><a href="">EMAIL</a></li>
+            <li><a class="page-button" href="./index.html">Go back</a></li>
+        </ul>
+        
+    </div>
+    <footer class="container">
+        <p>
+            Copyright © Eduard 2023
+        </p>
+    </footer>
     
-}
-.navbar{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    border-bottom: 2px solid;
-}
-.menubutton{
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    color: black;
-}
-.menubutton:hover{
-    text-decoration: underline #cc334f;
-}
-.container{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5%;
-}
-.container2{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 10px;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5%;
-}
-.left{
-    width: 49%;
-}
-.right{
-    width: 49%;
-}
-.page-button{
-    background-color:#cc334f;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-.work{
-    text-align: center;
-    margin: 0px;
-    padding: 0;
-}
-h1{
-    font-size: 45px;
-    font-weight: 900;
-}
-h2{
-    font-size: 30px;
-    
-}
-h3{
-    font-size: 28px;
-}
-.website-info{
-    border: 1px white solid;
-}
-p{
-    font-size: 20px;
-    text-align: justify;
-    line-height: 25px;
-}
-.website-info{
-    padding: 20px;
-    padding-top: 0px;
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
-.my-work-box{
-    background-color: lightgray;
-}
-
-.me{
-    text-align: center;
-}
-#me{
-    max-width: 250px;
-}
-
-@media(max-width:600px){
-    .container,.container2{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        padding: 20px;
-    }
-    .left{
-        width: 100%;
-    }
-    .right{
-        width: 100%;
-    }
-    .website-info{
-        border: 0;
-    }
-    h1{
-        padding-bottom: 20px;
-    }
-    h2{
-        padding-bottom: 20px;
-        text-align: justify;
-    }
-    .left{
-        padding: 0px;
-    }
-    .button{
-        font-size: 15px;
-    }
-    #heroimg{
-        width: 350px;
-    }
-    .my-work-box{
-        border: 1px solid;
-    }
-}
+</body>
+</html>
